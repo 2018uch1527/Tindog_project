@@ -1,0 +1,228 @@
+#title
+{
+  background-color: #ff4c68;
+
+}
+
+.heading
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size:4rem;
+  color: white;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+.container-fluid{
+  padding: 3% 15%;
+  line-height: 1.5;
+  padding-top:0;
+}
+.iphone{
+ transform: rotate(20deg);
+ position: relative;
+   top:20px;
+ z-index: 2;
+}
+.navbar
+{
+  padding-bottom: 4.5rem;
+}
+.navbar-brand
+{
+  color:white;
+  font-family: 'Ubuntu',sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 20px;
+}
+#Features
+{
+  background-color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+  position: relative;
+  bottom: 100px;
+  z-index: 10;
+}
+
+.icon
+{
+   color:#ef8172;
+}
+.icon:hover{
+  color:#ff4c68;
+}
+.des{
+  color:grey;
+  text-align: center;
+  padding:2% 25%;
+}
+h1{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  color: white;
+  line-height: 5rem;
+  padding: 20px 20px;
+}
+h2{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 5rem;
+  padding: 0px 20px;
+
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+/* testimonals section */
+
+#testimonials{
+  text-align:center;
+  background-color:#ef8172;
+  color:white;
+
+}
+.testimonial-image{
+  width: 20%;
+   border-radius: 100%;
+   margin: 20px;
+}
+/* press */
+#press
+{
+  background-color:#ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 20%;
+  margin: 20px 20px 50px;
+}
+.carousel-item{
+  padding: 5% 20%;
+}
+/* pricing */
+#pricing{
+   padding: 100px;
+   text-align: center;
+}
+
+.pricing-coloum{
+  padding: 5%;
+}
+
+@media (max-width:1115px) {
+  .iphone{
+    position: static;
+    transform: rotate(0);
+    text-align:center;
+    padding: 30px;
+  }
+}
+/* call to action */
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 5%;
+  color:white;
+}
+.Download{
+  margin:20px;
+}
+.custom{
+    font-size: 2rem;
+    margin: 30px auto;
+    width:40%;
+}
+/* FAQ */
+/* #lastsec{
+  background-color: black;
+
+} */
+.faq{
+    text-align: center;
+    background-color: #ff4c68;
+    padding-bottom: 30px;
+}
+
+.faq h1{
+
+    padding-bottom: 40px;
+    font-size: 3rem;
+}
+
+.questions{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+    align-items: center;
+    list-style-type: none;
+}
+
+.questions li{
+    padding: 20px 30px;
+    margin: 5px;
+    font-size: 1.6rem;
+    background-color: #406882;
+    color: white;
+    text-align: left;
+    width: 50%;
+}
+
+.faq p{
+    padding-top: 60px;
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+li{
+  position:relative;
+}
+.one{
+  display: none;
+}
+.two{
+  display: none;
+}
+.three{
+  display: none;
+}
+.four{
+  display: none;
+}
+.five{
+  display: none;
+}
+.six{
+  display: none;
+}
+.Expander{
+    position: absolute;
+    right:20px;
+    background-color: #406882;
+    color:white;
+    font-size: 2rem;
+    border: 0px;
+}
+.click-here{
+  color:white;
+  text-decoration: underline;
+}
+/* footer */
+#footer{
+  text-align: center;
+  padding-top: 80px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 10px;
+}
+.social{
+  color:black;
+  margin-left: : 15px ;
+  margin-right: 15px;
+  margin-bottom: 30px;
+}
